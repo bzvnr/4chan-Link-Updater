@@ -11,7 +11,7 @@ Currently, it cannot parse 4chan links that only have a single digit in their th
 
 This project requires Node.js to be installed. Installation details can be found [here](https://nodejs.org/en/download/).
 
-While more detailed use instructions are being developed, it is presumed that the reader has some understanding of JavaScrip, Node.js, and the Command Prompt.
+While more detailed instructions are being developed, it is presumed that the reader has some understanding of JavaScript and Node.js.
 
 1. Download a zip file of the repository from GitHub. 
 2. Unzip the downloaded file.
