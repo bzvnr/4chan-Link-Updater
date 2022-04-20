@@ -6,7 +6,6 @@ See [here](https://github.com/4chenz/archives.json) for live 4chan archives in a
 Currently, it cannot parse 4chan links that only have a single digit in their thread / post number.
 4chan links ending in the format `/{threadNumber},{postNumber}` don't work.
 
-
 #### Use Instructions
 
 This project requires Node.js to be installed. Installation details can be found [here](https://nodejs.org/en/download/).
