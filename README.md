@@ -13,9 +13,9 @@ This project requires Node.js to be installed. Installation details can be found
 
 While more detailed instructions are being developed, it is presumed that the reader has some understanding of JavaScript and Node.js.
 
-1. Download a zip file of the repository from GitHub. 
+1. Download a ZIP file of the repository from GitHub. 
 2. Unzip the downloaded file.
-3. In the project's `lib` folder, create a JS file with the provided text below, placing your text where specified.
+3. In the project's `lib` folder, create a .js file with the text provided below, placing your text where specified.
 4. Open your operating system's terminal window and change the current directory to the project's `lib` folder.
 5. Type "node yourScriptName.js" and hit enter. It should output the updated links.
 
