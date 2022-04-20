@@ -9,12 +9,15 @@ Currently, it cannot parse 4chan links that only have a single digit in their th
 
 #### Use Instructions
 
-While detailed use instructions are being developed, it is presumed that the reader has some understanding of JavaScript and Node.js.
-
 This project requires Node.js to be installed. Installation details can be found [here](https://nodejs.org/en/download/).
 
-Download a zip file of the repository from GitHub. Unzip the downloaded file. In the `lib` folder, create a JS file with the provided text below, placing your text where specified. Then, open the command window and navigate to the `lib` folder. Then, type "node yourScriptName.js" and hit enter. The links should be updated.
+While more detailed use instructions are being developed, it is presumed that the reader has some understanding of JavaScrip, Node.js, and the Command Prompt.
 
+1. Download a zip file of the repository from GitHub. 
+2. Unzip the downloaded file.
+3. In the project's `lib` folder, create a JS file with the provided text below, placing your text where specified.
+4. Open your operating system's terminal window and change the current directory to the project's `lib` folder.
+5. Type "node yourScriptName.js" and hit enter. It should output the updated links.
 
 ```
 var 4chanLinkReplacer = require("./replace4chanLinks.js");
