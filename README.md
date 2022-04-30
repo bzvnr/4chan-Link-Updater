@@ -1,12 +1,12 @@
 # 4chan-Link-Updater
 
-Replace broken/dead 4chan archive links with live ones. Contains Regex to search and replace links in a body of text.
+Replace broken/dead 4chan archive links with live ones. Contains Regex to search and replace links in a body of text. Link to npm package [here](https://www.npmjs.com/package/4chan-link-updater).
 
 See [here](https://github.com/4chenz/archives.json) for live 4chan archives in a JSON file.
 
 To see the links that currently cannot be parsed, see in [testData.json](https://github.com/bzvnr/4chan-Link-Updater/blob/master/lib/testData.json) replace4chanLinks.specialUseCases.nonFunctional.
 
-tl;dr: it has trouble parsing 4chan links that only have a single digit in their thread / post number. If a link is in the format `/threadNumber}/{words}(optional: postNumber)`, it incorrectly registers any number in {words} part as the postNumber. Additionally, 4chan links ending in the format `/{threadNumber},{postNumber}` don't work.
+tl;dr: it has trouble parsing 4chan links that only have a single digit in their thread / post number. If a link is in the format `/{threadNumber}/{words}(optional: postNumber)`, it incorrectly registers any number in {words} part as the postNumber. Additionally, 4chan links ending in the format `/{threadNumber},{postNumber}` don't work.
 
 ## How To Use
 
