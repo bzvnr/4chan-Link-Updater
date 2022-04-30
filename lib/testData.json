@@ -61,6 +61,10 @@
           "fixed": "https://warosu.org/3/thread/891540"
         },
         {
+          "broken": "https://boards.4channel.org/3/thread/891540/e57-silly-question-about-running-a-program#p891542",
+          "fixed": "https://warosu.org/3/thread/891540#q891542"
+        },
+        {
           "broken": "https://yuki.la/vm/thread/1",
           "fixed": "https://arch.b4k.co/vm/thread/1"
         },
@@ -70,7 +74,11 @@
         },
         {
           "broken": "https://yuki.la/s4s/3",
-          "fixed": "https://archive.4plebs.org/s4s/thread/3"
+          "fixed": "https://archive.4pleb.org/s4s/thread/3"
+        },
+        {
+          "broken": "https://yuki.la/3/3",
+          "fixed": "https://warosu.org/3/thread/3"
         }
       ]
     }
