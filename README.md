@@ -1,6 +1,6 @@
 # 4chan-Link-Updater
 
-Replace broken/dead 4chan archive links with live ones. Contains Regex to search and replace links in a body of text. Link to npm package [here](https://www.npmjs.com/package/4chan-link-updater).
+Replace dead 4chan archive links with live ones. Contains regular expressions for search and replace links to 4chan archive sites and boards. Link to npm package [here](https://www.npmjs.com/package/4chan-link-updater).
 
 See [here](https://github.com/4chenz/archives.json) for live 4chan archives in a JSON file.
 
@@ -10,7 +10,7 @@ tl;dr: it has trouble parsing 4chan links that only have a single digit in their
 
 ## How To Use
 
-To use this project, Node.js must be installed. Installation details can be found [here](https://nodejs.org/en/download/).
+To use this project, [Node.js])(https://nodejs.org/en/download/) must be installed.
 
 While more detailed use instructions are being developed, it is assumed that the reader has some understanding of JavaScript and Node.js. Knowledge of [Jest](https://jestjs.io/) is optional.
 
