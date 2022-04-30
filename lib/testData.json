@@ -1,0 +1,78 @@
+{
+  "replace4chanLinks": {
+    "typicalUseCases": {
+      "functional": [
+        {
+          "broken": "https://boards.4channel.org/v/thread/594677605/she-is-evil",
+          "fixed": "https://arch.b4k.co/v/thread/594677605"
+        },
+        {
+          "broken": "https://boards.4channel.org/x/thread/21676943",
+          "fixed": "https://archive.4plebs.org/x/thread/21676943"
+        },
+        {
+          "broken": "https://archive.nyafuu.org/out/thread/1499474/1500000",
+          "fixed": "https://archive.alice.al/out/thread/1499474#q1500000"
+        },
+        {
+          "broken": "https://boards.4chan.org/b/thread/875798193",
+          "fixed": "https://archived.moe/b/thread/875798193"
+        },
+        {
+          "broken": "https://archive.moe/po/562084",
+          "fixed": "https://archived.moe/po/thread/562084"
+        },
+        {
+          "broken": "https://boards.4chan.org/hc/thread/433747",
+          "fixed": "https://archiveofsins.com/hc/thread/433747"
+        },
+        {
+          "broken": "https://boards.4chan.org/ic/thread/5990681/5990807",
+          "fixed": "https://boards.fireden.net/ic/thread/5990681#q5990807"
+        },
+        {
+          "broken": "https://boards.4channel.org/an/thread/4121306",
+          "fixed": "https://desuarchive.org/an/thread/4121306"
+        },
+        {
+          "broken": "https://boards.4channel.org/lit/thread/20169681/what-edition-of-hamlet-should-i-get#p20169912",
+          "fixed": "https://warosu.org/lit/thread/20169681#q20169912"
+        }
+      ]
+    },
+    "specialUseCases": {
+      "functional": [
+        {
+          "broken": "https://yuki.la/3/thread/499229",
+          "fixed": "https://warosu.org/3/thread/499229"
+        },
+        {
+          "broken": "https://boards.4chan.org/r9k/thread/23675577#p50136909",
+          "fixed": "https://desuarchive.org/r9k/thread/23675577#q50136909"
+        },
+        {
+          "broken": "https://www.yuki.la/s4s/thread/7838249/#q7838249",
+          "fixed": "https://archive.4plebs.org/s4s/thread/7838249#q7838249"
+        }
+      ],
+      "nonFunctional": [
+        {
+          "broken": "https://boards.4channel.org/3/thread/891540/e57-silly-question-about-running-a-program",
+          "fixed": "https://warosu.org/3/thread/891540/"
+        },
+        {
+          "broken": "https://yuki.la/vm/thread/1",
+          "fixed": "https://arch.b4k.co/vm/thread/1"
+        },
+        {
+          "broken": "https://yuki.la/vm/thread/1/#1",
+          "fixed": "https://arch.b4k.co/vm/thread/1#q1"
+        },
+        {
+          "broken": "https://yuki.la/s4s/3",
+          "fixed": "https://archive.4plebs.org/s4s/thread/3"
+        }
+      ]
+    }
+  }
+}
