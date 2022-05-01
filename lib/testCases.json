@@ -82,5 +82,60 @@
         }
       ]
     }
+  },
+  "sitesAndBoardRegexes": {
+    "typicalUseCases": [
+      {
+        "url": "https://yuki.la/vm/thread/1"
+      },
+      {
+        "url": "https://yuki.la/vm/thread/1/#1"
+      },
+      {
+        "url": "https://yuki.la/s4s/7838249"
+      },
+      {
+        "url": "https://yuki.la/s4s/7838249#7839030"
+      },
+      {
+        "url": "https://yuki.la/s4s/7838249#p7839030"
+      },
+      {
+        "url": "https://yuki.la/s4s/7838249#q7839030"
+      },
+      {
+        "url": "https://yuki.la/s4s/7838249/7839030"
+      },
+      {
+        "url": "https://yuki.la/s4s/7838249/#7839030"
+      },
+      {
+        "url": "https://yuki.la/s4s/7838249/#p7839030"
+      },
+      {
+        "url": "https://yuki.la/s4s/7838249/#q7839030"
+      },
+      {
+        "url": "https://yuki.la/s4s/thread/7838249/cowe"
+      },
+      {
+        "url": "https://yuki.la/s4s/thread/7838249/cowe/7839030"
+      },
+      {
+        "url": "https://yuki.la/s4s/thread/7838249/cowe/#7839030"
+      },
+      {
+        "url": "https://yuki.la/s4s/thread/7838249/cowe/#p7839030"
+      },
+      {
+        "url": "https://yuki.la/s4s/thread/7838249/cowe/#q7839030"
+      },
+      {
+        "url": "https://yuki.la/lit/thread/20169681/what-edition-of-hamlet-should-i-get"
+      },
+      {
+        "url": "https://yuki.la/lit/thread/20169681/what-edition-of-hamlet-should-i-get#p20169681"
+      }
+    ]
   }
 }
