@@ -14,17 +14,9 @@ While more detailed instructions are being developed, it is assumed that the rea
 
 1. Download a ZIP file of the repository from GitHub.
 2. Unzip the downloaded file.
-3. In the project's `lib` folder, create a .js file with the text provided below, placing your text containing links where specified.
+3. In the project's `lib` folder, there is a file called `updateLinks.js`. Open the file and place the body of text containing links where specified.
 4. Open your operating system's terminal window and change the current directory to the project's `lib` folder.
-5. Type `node yourScriptName.js` and press enter. The updated links will be displayed in the terminal window.
-
-```
-const 4chanLinkUpdater = require("./replace4chanLinks.js");
-
-const myText = ""; // place your text between the ""
-
-console.log(4chanLinkUpdater.updateDeadLinks(myText));
-```
+5. Type `node updateLinks.js` and press enter. The updated links will be displayed in the terminal window.
 
 ### Testing
 
