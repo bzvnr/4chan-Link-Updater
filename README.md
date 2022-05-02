@@ -4,11 +4,11 @@ This project contains functions to replace dead 4chan and 4chan archive links wi
 
 To see the links that currently cannot be parsed, see in [testData.json](https://github.com/bzvnr/4chan-Link-Updater/blob/master/lib/testData.json) replace4chanLinks.specialUseCases.nonFunctional.
 
-tl;dr: the updateDeadLink(deadLink) function has trouble parsing 4chan links that only have a single digit in their thread / post number. If a link is in the format `/{threadNumber}/{words}(optional: postNumber)`, it incorrectly registers any number in {words} part as the postNumber. Additionally, 4chan links ending in the format `/{threadNumber},{postNumber}` don't work.
+tl;dr: the updateDeadLink(deadLink) function in replace4chanLinks.js has trouble parsing 4chan links that only have a single digit in their thread / post number. If a link is in the format `/{threadNumber}/{words}(optional: postNumber)`, it incorrectly registers any number in {words} part as the postNumber. Additionally, 4chan links ending in the format `/{threadNumber},{postNumber}` don't work.
 
 ## How To Use
 
-To use this project, [Node.js])(https://nodejs.org/en/download/) must be installed.
+To use this project, [Node.js](https://nodejs.org/en/download/) must be installed.
 
 While more detailed use instructions are being developed, it is assumed that the reader has some understanding of JavaScript and Node.js. Knowledge of [Jest](https://jestjs.io/) is optional.
 
@@ -49,3 +49,5 @@ npm test
 ## Resources
 
 - [Live 4chan archives in a JSON file](https://github.com/4chenz/archives.json)
+- [4chan archive information](https://wiki.archiveteam.org/index.php/4chan)
+- [General 4chan history](https://wiki.bibanon.org/4chan/History) (NSFW)
