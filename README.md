@@ -6,7 +6,7 @@ If viewing this project on npmjs.com, the GitHub repository may have a more rece
 
 ## How To Use
 
-To use this project, Node.js and npm must be installed. For installation instructions, [click here if using a Windows Operating System](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows) and [here for Mac/Linux](https://github.com/nvm-sh/nvm#install--update-script).
+To use this project, Node.js and npm must be installed. For installation instructions, [click here if using a Windows Operating System](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows) or [here for Mac/Linux](https://github.com/nvm-sh/nvm#install--update-script).
 
 While more detailed instructions are being developed, it is assumed that the reader has some understanding of JavaScript and Node.js. Knowledge of [Jest](https://jestjs.io/) is optional.
 
