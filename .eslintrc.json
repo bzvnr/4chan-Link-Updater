@@ -21,9 +21,9 @@
     "no-cond-assign": "off",
     "no-console": "off",
     "no-plusplus": 0,
+    "no-restricted-syntax": "off",
     "no-unused-vars": "warn",
     "no-use-before-define": "off",
-    "no-restricted-syntax": "off",
     "padded-blocks":"off",
     "quotes": [
       "error",
