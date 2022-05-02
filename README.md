@@ -25,7 +25,7 @@ While more detailed use instructions are being developed, it is assumed that the
 ```
 const 4chanLinkReplacer = require("./replace4chanLinks.js");
 
-let myText = ""; // place your text between the ""
+const myText = ""; // place your text between the ""
 
 console.log(4chanLinkReplacer.updateDeadLinks(myText));
 ```
