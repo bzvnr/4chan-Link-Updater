@@ -18,11 +18,13 @@
   "rules": {
     "comma-dangle": "off",
     "linebreak-style": 0,
+    "no-cond-assign": "off",
     "no-console": "off",
     "no-plusplus": 0,
     "no-unused-vars": "warn",
     "no-use-before-define": "off",
     "no-restricted-syntax": "off",
+    "padded-blocks":"off",
     "quotes": [
       "error",
       "double"
