@@ -1,8 +1,8 @@
 {
   "name": "4chan-link-updater",
-  "version": "1.2.4",
+  "version": "1.3.0",
   "description": "Update dead/broken 4chan and 4chan archive links with live links. Contains Regex for 4chan archive sites and all boards.",
-  "keywords": [ 
+  "keywords": [
     "4chan",
     "archive",
     "regex",
@@ -17,13 +17,16 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
-      "type": "git",
-      "url": "https://github.com/bzvnr/4chan-Link-Updater.git"
+    "type": "git",
+    "url": "https://github.com/bzvnr/4chan-Link-Updater.git"
   },
   "author": "bzvnr",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
 }
