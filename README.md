@@ -4,7 +4,7 @@ This project contains functions to replace dead 4chan and 4chan archive links wi
 
 ## How To Use
 
-To use this project, [Node.js](https://nodejs.org/en/download/) must be installed.
+To use this project, Node.js and npm must be installed. For installation instructions, [click here if using a Windows Operating System](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows) and [here for Mac/Linux](https://github.com/nvm-sh/nvm#install--update-script).
 
 While more detailed instructions are being developed, it is assumed that the reader has some understanding of JavaScript and Node.js. Knowledge of [Jest](https://jestjs.io/) is optional.
 
@@ -46,7 +46,9 @@ npm test
 
 The updateDeadLink(deadLink) function in replace4chanLinks.js has trouble parsing 4chan links that only have a single digit in their thread / post number. Additionally, if a link is in the format `/{threadNumber}/{words}(optional: postNumber)`, it incorrectly registers any number in {words} part as the postNumber. Finally, 4chan links ending in the format `/{threadNumber},{postNumber}` are not supported.
 
-To see the links that currently cannot be parsed, view [testData.json](https://github.com/bzvnr/4chan-Link-Updater/blob/master/lib/testData.json) replace4chanLinks.specialUseCases.nonFunctional.
+There is no safety check for non-functional links. Use with caution. 
+
+To see the links that currently cannot be parsed, view [testCases.json](https://github.com/bzvnr/4chan-Link-Updater/blob/master/lib/testCases.json) replace4chanLinks.specialUseCases.nonFunctional.
 
 ## Misc. Resources
 
