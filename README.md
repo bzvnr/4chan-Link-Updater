@@ -2,6 +2,8 @@
 
 This project contains functions to replace dead 4chan and 4chan archive links with live ones. It also contains regular expressions to search and replace 4chan and 4chan archive sites and boards. [(click here for the link to this project's npm package)](https://www.npmjs.com/package/4chan-link-updater).
 
+If viewing this project on npmjs.com, the GitHub repository may have a more recent version.
+
 ## How To Use
 
 To use this project, Node.js and npm must be installed. For installation instructions, [click here if using a Windows Operating System](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows) and [here for Mac/Linux](https://github.com/nvm-sh/nvm#install--update-script).
