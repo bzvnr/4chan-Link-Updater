@@ -1,6 +1,6 @@
 {
   "name": "4chan-link-updater",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "Update dead/broken 4chan and 4chan archive links with live links. Contains Regex for 4chan archive sites and all boards.",
   "keywords": [
     "4chan",
@@ -27,6 +27,9 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
+    "eslint": "^8.14.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
     "jest": "^27.5.1"
   }
 }
