@@ -1,12 +1,10 @@
 # 4chan-Link-Updater
 
-Replace dead 4chan archive links with live ones. Contains regular expressions for search and replace links to 4chan archive sites and boards. Link to npm package [here](https://www.npmjs.com/package/4chan-link-updater).
-
-See [here](https://github.com/4chenz/archives.json) for live 4chan archives in a JSON file.
+This project contains functions to replace dead 4chan and 4chan archive links with live ones. It also contains regular expressions to search and replace 4chan and 4chan archive sites and boards. Link to the project's npm package can be found [here](https://www.npmjs.com/package/4chan-link-updater).
 
 To see the links that currently cannot be parsed, see in [testData.json](https://github.com/bzvnr/4chan-Link-Updater/blob/master/lib/testData.json) replace4chanLinks.specialUseCases.nonFunctional.
 
-tl;dr: it has trouble parsing 4chan links that only have a single digit in their thread / post number. If a link is in the format `/{threadNumber}/{words}(optional: postNumber)`, it incorrectly registers any number in {words} part as the postNumber. Additionally, 4chan links ending in the format `/{threadNumber},{postNumber}` don't work.
+tl;dr: the updateDeadLink(deadLink) function has trouble parsing 4chan links that only have a single digit in their thread / post number. If a link is in the format `/{threadNumber}/{words}(optional: postNumber)`, it incorrectly registers any number in {words} part as the postNumber. Additionally, 4chan links ending in the format `/{threadNumber},{postNumber}` don't work.
 
 ## How To Use
 
@@ -20,14 +18,14 @@ While more detailed use instructions are being developed, it is assumed that the
 2. Unzip the downloaded file.
 3. In the project's `lib` folder, create a .js file with the text provided below, placing your text containing links where specified.
 4. Open your operating system's terminal window and change the current directory to the project's `lib` folder.
-5. Type "node yourScriptName.js" and hit enter. The updated links will be displayed in console.
+5. Type `node yourScriptName.js` and press enter. The updated links will be displayed in the terminal window.
 
 ```
-const 4chanLinkReplacer = require("./replace4chanLinks.js");
+const 4chanLinkUpdater = require("./replace4chanLinks.js");
 
 const myText = ""; // place your text between the ""
 
-console.log(4chanLinkReplacer.updateDeadLinks(myText));
+console.log(4chanLinkUpdater.updateDeadLinks(myText));
 ```
 
 ### Testing
@@ -47,3 +45,7 @@ To run the tests, input the command below in terminal in the directory where the
 ```
 npm test
 ```
+
+## Resources
+
+- [Live 4chan archives in a JSON file](https://github.com/4chenz/archives.json)
