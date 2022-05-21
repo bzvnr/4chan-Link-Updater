@@ -17,14 +17,17 @@
   ],
   "rules": {
     "comma-dangle": "off",
-    "linebreak-style": 0,
+    "linebreak-style": "off",
+    "max-len": "warn",
     "no-cond-assign": "off",
     "no-console": "off",
-    "no-plusplus": 0,
+    "no-multiple-empty-lines": "warn",
+    "no-plusplus": "off",
     "no-restricted-syntax": "off",
     "no-unused-vars": "warn",
     "no-use-before-define": "off",
     "padded-blocks":"off",
+    "prefer-template": "warn",
     "quotes": [
       "error",
       "double"
