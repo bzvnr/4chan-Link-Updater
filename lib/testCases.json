@@ -77,9 +77,33 @@
         {
           "broken": "https://yuki.la/3/3",
           "fixed": "https://warosu.org/3/thread/3"
+        },
+        {
+          "broken": "https://4chan.org/3/1/1/1",
+          "fixed": "https://warosu.org/3/thread/1#q1"
+        },
+        {
+          "broken": "https://4chan.org/s4s/1000/1-1-1-1-1/4000",
+          "fixed": "https://archive.4plebs.org/s4s/thread/1000#q4000"
+        },
+        {
+          "broken": "https://4channel.org/v/13412141/a1234a-abcd",
+          "fixed": "https://arch.b4k.co/v/thread/13412141"
         }
       ],
       "nonFunctional": [
+        {
+          "broken": "https://4channel.org/v/13412141/a1234a",
+          "fixed": "https://arch.b4k.co/v/thread/13412141"
+        },
+        {
+          "broken": "https://4channel.org/v/13412141/a1234a-a5678a",
+          "fixed": "https://arch.b4k.co/v/thread/13412141"
+        },
+        {
+          "broken": "https://4channel.org/v/13412141/1234-5678",
+          "fixed": "https://arch.b4k.co/v/thread/13412141"
+        }
       ]
     }
   },
