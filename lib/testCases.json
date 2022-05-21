@@ -53,9 +53,7 @@
         {
           "broken": "https://www.yuki.la/s4s/thread/7838249/#q7838249",
           "fixed": "https://archive.4plebs.org/s4s/thread/7838249#q7838249"
-        }
-      ],
-      "nonFunctional": [
+        }, 
         {
           "broken": "https://boards.4channel.org/3/thread/891540/e57-silly-question-about-running-a-program",
           "fixed": "https://warosu.org/3/thread/891540"
@@ -80,6 +78,8 @@
           "broken": "https://yuki.la/3/3",
           "fixed": "https://warosu.org/3/thread/3"
         }
+      ],
+      "nonFunctional": [
       ]
     }
   },
