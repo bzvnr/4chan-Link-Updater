@@ -44,47 +44,92 @@
       "functional": [
         {
           "broken": "https://yuki.la/3/thread/499229",
-          "fixed": "https://warosu.org/3/thread/499229"
+          "fixed": "https://warosu.org/3/thread/499229",
+          "comment": "updating link with boardName as 3"
         },
         {
           "broken": "https://boards.4chan.org/r9k/thread/23675577#p50136909",
-          "fixed": "https://desuarchive.org/r9k/thread/23675577#q50136909"
+          "fixed": "https://desuarchive.org/r9k/thread/23675577#q50136909",
+          "comment": "updating link with boardName as r9k"
+
         },
         {
           "broken": "https://www.yuki.la/s4s/thread/7838249/#q7838249",
-          "fixed": "https://archive.4plebs.org/s4s/thread/7838249#q7838249"
+          "fixed": "https://archive.4plebs.org/s4s/thread/7838249#q7838249",
+          "comment": "updating link with boardName as s4s"
+        },
+        {
+          "broken": "https://yuki.la/vm/thread/1",
+          "fixed": "https://arch.b4k.co/vm/thread/1",
+          "comment": "updating link with single-digit threadNumber"
+        },
+        {
+          "broken": "https://yuki.la/vm/thread/1/#1",
+          "fixed": "https://arch.b4k.co/vm/thread/1#q1",
+          "comment": "updating link with single-digit threadNumber and postNumber"
+        },
+        {
+          "broken": "https://yuki.la/3/3",
+          "fixed": "https://warosu.org/3/thread/3",
+          "comment": "updating link with matching single-digit boardName and postNumber"
+        },
+        {
+          "broken": "https://4chan.org/3/1/1/1",
+          "fixed": "https://warosu.org/3/thread/1#q1",
+          "comment": "updating link with matching single-digit threadNumber, word, and postNumber"
+        },
+        {
+          "broken": "https://4chan.org/s4s/1/1-1-1-1-1/1",
+          "fixed": "https://archive.4plebs.org/s4s/thread/1#q1",
+          "comment": "updating link with matching single-digit threadNumber, multiple words, and postNumber"
+        },
+        {
+          "broken": "https://4chan.org/s4s/1/1-1-1-1-1#1",
+          "fixed": "https://archive.4plebs.org/s4s/thread/1#q1",
+          "comment": "updating link with matching single-digit threadNumber, multiple words, and postNumber"
+        },
+        {
+          "broken": "https://4channel.org/v/1/a1234a",
+          "fixed": "https://arch.b4k.co/v/thread/1",
+          "comment": "updating link with word containing numbers"
+        },
+        {
+          "broken": "https://4channel.org/v/1/a1234a-abcd",
+          "fixed": "https://arch.b4k.co/v/thread/1",
+          "comment": "updating link with word containing numbers and another word"
+        },
+
+        {
+          "broken": "https://4channel.org/v/13412141/a1234a-a5678a",
+          "fixed": "https://arch.b4k.co/v/thread/13412141",
+          "comment": "updating link with multiple word containing numbers"
+        },
+        {
+          "broken": "https://4channel.org/v/13412141/1234-5678",
+          "fixed": "https://arch.b4k.co/v/thread/13412141",
+          "comment": "updating link with multiple words that are numbers"
         }
       ],
       "nonFunctional": [
         {
-          "broken": "https://boards.4channel.org/3/thread/891540/e57-silly-question-about-running-a-program",
-          "fixed": "https://warosu.org/3/thread/891540"
-        },
-        {
-          "broken": "https://boards.4channel.org/3/thread/891540/e57-silly-question-about-running-a-program#p891542",
-          "fixed": "https://warosu.org/3/thread/891540#q891542"
-        },
-        {
-          "broken": "https://yuki.la/vm/thread/1",
-          "fixed": "https://arch.b4k.co/vm/thread/1"
-        },
-        {
-          "broken": "https://yuki.la/vm/thread/1/#1",
-          "fixed": "https://arch.b4k.co/vm/thread/1#q1"
-        },
-        {
-          "broken": "https://yuki.la/s4s/3",
-          "fixed": "https://archive.4pleb.org/s4s/thread/3"
-        },
-        {
-          "broken": "https://yuki.la/3/3",
-          "fixed": "https://warosu.org/3/thread/3"
+          "broken": "https://4channel.org/v/13412141/1234",
+          "fixed": "https://arch.b4k.co/v/thread/13412141",
+          "comment": "updating link with a word that is a number"
         }
       ]
     }
   },
   "sitesAndBoardRegexes": {
     "typicalUseCases": [
+      {
+        "url": "https://4chan.org/vm/thread/1"
+      },
+      {
+        "url": "https://boards.4channel.org/vm/thread/1"
+      },
+      {
+        "url": "https://4channel.org/vm/thread/1"
+      },
       {
         "url": "https://yuki.la/vm/thread/1"
       },

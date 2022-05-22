@@ -1,6 +1,6 @@
 {
   "name": "4chan-link-updater",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "Update dead/broken 4chan and 4chan archive links with live links. Contains Regex for 4chan archive sites and all boards.",
   "keywords": [
     "4chan",
