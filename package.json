@@ -15,6 +15,10 @@
   "bugs": {
     "url": "https://github.com/bzvnr/4chan-Link-Updater/issues"
   },
+  "files": [
+    "./lib/replace4chanLinks.js",
+    "./lib/replace4chanLinks.js"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "jest"
