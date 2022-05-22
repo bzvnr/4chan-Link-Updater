@@ -104,6 +104,10 @@
         }
       ],
       "nonFunctional": [
+        {
+          "broken": "https://4channel.org/v/13412141/43110",
+          "fixed": "https://arch.b4k.co/v/thread/13412141"
+        }
       ]
     }
   },
