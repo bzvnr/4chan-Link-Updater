@@ -1,8 +1,6 @@
 # 4chan-Link-Updater
 
-[![npm](https://img.shields.io/npm/v/4chan-link-updater.svg)](https://www.npmjs.com/package/4chan-link-updater)
-
-This project contains functions to replace dead 4chan and 4chan archive links with live ones. It also contains regular expressions to match 4chan and 4chan archive sites with their respective boards.
+This project contains functions to replace dead 4chan and 4chan archive links with live ones. It also contains regular expressions to search and replace 4chan and 4chan archive sites and boards. [(click here for the link to this project's npm package)](https://www.npmjs.com/package/4chan-link-updater).
 
 If viewing this project on npmjs.com, the GitHub repository may have a more recent version.
 
