@@ -40,11 +40,9 @@ npm test
 
 ## Bugs
 
-The updateDeadLink(deadLink) function in replace4chanLinks.js has trouble parsing 4chan links that only have a single digit in their thread / post number. Additionally, if a link is in the format `/{threadNumber}/{words}(optional: postNumber)`, it incorrectly registers any number in {words} part as the postNumber. Finally, 4chan links ending in the format `/{threadNumber},{postNumber}` are not supported.
+To see the links that currently cannot be parsed, view [testCases.json](https://github.com/bzvnr/4chan-Link-Updater/blob/master/lib/testCases.json) replace4chanLinks.specialUseCases.nonFunctional. 4chan links ending in the format `/{threadNumber},{postNumber}` are not supported.
 
 There is no safety check for non-functional links. Use with caution. 
-
-To see the links that currently cannot be parsed, view [testCases.json](https://github.com/bzvnr/4chan-Link-Updater/blob/master/lib/testCases.json) replace4chanLinks.specialUseCases.nonFunctional.
 
 ## Misc. Resources
 
