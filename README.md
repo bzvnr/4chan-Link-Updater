@@ -8,9 +8,21 @@
 <h1>4chan-Link-Updater</h1>
 </div>
 
-This project contains functions to update dead 4chan and 4chan archive links with live ones. It also contains regular expressions to match 4chan and 4chan archive sites with their respective boards.
+This project contains functions to automatically update dead 4chan and 4chan archive links with live ones. It also contains regular expressions to match 4chan and 4chan archive sites with their respective boards.
 
 If viewing this project on npmjs.com, the GitHub repository may have a more recent version.
+
+## Table of Contents
+
+- [Examples](#examples)
+- [Features](#features)
+- [Rationale](#rationale)
+- [Use Instructions](#use-instructions)
+- [Installation](#installation)
+- [Testing](#testing)
+- [Limitations](#limitations)
+- [Technologies](#technologies)
+- [Miscellaneous](#miscellaneous)
 
 ## Examples
 
@@ -18,6 +30,21 @@ If viewing this project on npmjs.com, the GitHub repository may have a more rece
 |:------:|:-----:|
 | https://boards.4channel.org/lit/thread/20169681/what-edition-of-hamlet-should-i-get#p20169912 | https://warosu.org/lit/thread/20169681#q20169912 |
 | https://yuki.la/s4s/thread/7838249/cowe/7839030 | https://archive.4plebs.org/s4s/thread/7838249#q7839030 |
+
+## Features
+
+- functions to replace post and thread links for 4chan and dead 4chan archives with lives ones automatically
+- regular expressions for archive sites and their respective boards
+
+## Rationale
+
+Threads on the imageboard 4chan are ephemeral, meaning they become inaccessible after some time. Once a thread is deleted, links to it no longer work.
+
+4chan archives that preserve threads past their deletion exist, but the links that redirect to 4chan are still invalid.
+
+Additionally, 4chan archives can go offline, rendering links to those archives broken.
+
+This project contains function to replace those broken / dead links with live ones automatically.
 
 ## Use Instructions
 
@@ -47,16 +74,16 @@ To run the tests, in a terminal navigated to the project's directory, run ```npm
 
 ## Limitations
 
-To see the links that currently cannot be parsed, view [testCases.json](./lib/testCases.json) replace4chanLinks.specialUseCases.nonFunctional. Note that 4chan links ending in the format `/{threadNumber},{postNumber}` are not supported.
+Image links to images are currently not supported.To see the links that currently cannot be parsed, view [testCases.json](./lib/testCases.json) *replace4chanLinks.specialUseCases.nonFunctional*. Note that post and thread links ending in the format `/{threadNumber},{postNumber}` are not supported.
 
-There is no safety check for non-functional links. Use with caution.
+There is no safety check for non-functional links. Use with caution. 
 
 ## Technologies
 
 Technologies used for this project include:
 
 - [Node.js](https://nodejs.org/en/download/) as a runtime environment
-- [npm](https://npmjs.com) for package management 
+- <a href="https://npmjs.com">npm</a> for package management 
 - [Jest](https://jestjs.io/) for testing
 - [webpack](https://github.com/webpack/webpack) for bundling
 - [Visual Studio Code](https://code.visualstudio.com/) for development
