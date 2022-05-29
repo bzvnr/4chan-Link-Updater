@@ -1,4 +1,3 @@
-
 <div align="center">
 
 [![npm][npm]][npm-url]
@@ -7,7 +6,6 @@
   <a href="https://bzvnr.github.io/4chan-Link-Updater/">View in action with GitHub Pages</a>
 
 <h1>4chan-Link-Updater</h1>
-
 </div>
 
 This project contains functions to update dead 4chan and 4chan archive links with live ones. It also contains regular expressions to match 4chan and 4chan archive sites with their respective boards.
@@ -58,13 +56,31 @@ To run the tests, enter the command below in terminal in the project's folder. T
 npm test
 ```
 
-## Bugs
+## Limitations
 
-To see the links that currently cannot be parsed, view [testCases.json](https://github.com/bzvnr/4chan-Link-Updater/blob/master/lib/testCases.json) replace4chanLinks.specialUseCases.nonFunctional. 4chan links ending in the format `/{threadNumber},{postNumber}` are not supported.
+To see the links that currently cannot be parsed, view [testCases.json](./lib/testCases.json) replace4chanLinks.specialUseCases.nonFunctional. Note that 4chan links ending in the format `/{threadNumber},{postNumber}` are not supported.
 
-There is no safety check for non-functional links. Use with caution. 
+There is no safety check for non-functional links. Use with caution.
 
-## Misc. Resources
+## Technologies
+
+Technologies used for this project include:
+
+- [Node.js](https://nodejs.org/en/download/) as a runtime environment
+- [npm](https://npmjs.com) for package management 
+- [Jest](https://jestjs.io/) for testing
+- [webpack](https://github.com/webpack/webpack) for bundling
+- [Visual Studio Code](https://code.visualstudio.com/) for development
+
+## Miscellaneous
+
+### npm Commands
+
+- `npm install` - installs the required packages for the project
+- `npm run build` - updates [bundle.js](./dist/bundle.js) to use the latest versions of the [replace4chanLinks.js](./lib/replace4chanLinks.js) and [siteAndBoardRegexes.js](./lib/siteAndBoardRegexes.js) files. [index.html](./index.html) will use the updated version of [bundle.js](./dist/bundle.js)
+- `npm test` - runs the tests for the project with Jest
+
+### Resources
 
 - [Live 4chan archives in a JSON file](https://github.com/4chenz/archives.json)
 - [4chan archive site information](https://wiki.archiveteam.org/index.php/4chan)
