@@ -40,11 +40,9 @@ If viewing this project on npmjs.com, the GitHub repository may have a more rece
 
 Threads on the imageboard 4chan are ephemeral, meaning they become inaccessible after some time. Once a thread is deleted, links to it no longer work.
 
-4chan archives that preserve threads past their deletion exist, but the links that redirect to 4chan are still invalid.
+4chan archives that preserve threads past their deletion exist, but the links that redirect to 4chan are still invalid. Additionally, 4chan archives can go offline, rendering links to those archives broken.
 
-Additionally, 4chan archives can go offline, rendering links to those archives broken.
-
-This project contains function to replace those broken / dead links with live ones automatically.
+This project solves that problem by providing functions to replace those broken / dead links with live ones automatically.
 
 ## Use Instructions
 
@@ -74,16 +72,16 @@ To run the tests, in a terminal navigated to the project's directory, run ```npm
 
 ## Limitations
 
-Image links to images are currently not supported.To see the links that currently cannot be parsed, view [testCases.json](./lib/testCases.json) *replace4chanLinks.specialUseCases.nonFunctional*. Note that post and thread links ending in the format `/{threadNumber},{postNumber}` are not supported.
+Image links to images are currently not supported.To see the links that currently cannot be parsed, view [testCases.json](./lib/testCases.json) and search for "*nonfunctional*". Note that post and thread links ending in the format `/{threadNumber},{postNumber}` are not supported.
 
-There is no safety check for non-functional links. Use with caution. 
+There is no safety check for non-functional links. Use with caution.
 
 ## Technologies
 
 Technologies used for this project include:
 
 - [Node.js](https://nodejs.org/en/download/) as a runtime environment
-- <a href="https://npmjs.com">npm</a> for package management 
+- <a href="https://npmjs.com">npm</a> for package management
 - [Jest](https://jestjs.io/) for testing
 - [webpack](https://github.com/webpack/webpack) for bundling
 - [Visual Studio Code](https://code.visualstudio.com/) for development
