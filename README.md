@@ -12,13 +12,12 @@ This project contains functions to update dead 4chan and 4chan archive links wit
 
 If viewing this project on npmjs.com, the GitHub repository may have a more recent version.
 
-## Use Instructions
+## Examples
 
-A live version of project can be used with [GitHub Pages](https://bzvnr.github.io/4chan-Link-Updater/). The project can also be used offline by downloading or cloning it from GitHub.
-
-### Requirements
-
-To use this project locally, Node.js and npm must be installed. See [installation instructions for Node.js for details](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm). A short video on how to install Node.js can also be viewed [here](https://youtu.be/OBhw2BOez0w?t=82).
+| Before | After |
+|:------:|:-----:|
+| https://boards.4channel.org/lit/thread/20169681/what-edition-of-hamlet-should-i-get#p20169912 | https://warosu.org/lit/thread/20169681#q20169912 |
+| https://yuki.la/s4s/thread/7838249/cowe/7839030 | https://archive.4plebs.org/s4s/thread/7838249#q7839030 |
 
 ## Use Instructions
 
@@ -42,19 +41,9 @@ The project's [HTML document](./index.html) opened in most browsers should work 
 
 ## Testing
 
-Tests are used to verify this project's functionality. As of 1.4.2, 80/81 tests pass. [Jest](https://jestjs.io/) is used as a testing framework.
+Tests are used to verify this project's functionality (see [limitations](#limitations) for tests that don't pass).
 
-In the project's folder, run the command below in terminal. This will download packages necessary for testing.
-
-```
-npm install
-```
-
-To run the tests, enter the command below in terminal in the project's folder. The result of the tests will be displated in terminal.
-
-```
-npm test
-```
+To run the tests, in a terminal navigated to the project's directory, run ```npm install``` if packages aren't installed, then ```npm test``` run the tests.
 
 ## Limitations
 
