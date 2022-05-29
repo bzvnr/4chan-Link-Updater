@@ -13,7 +13,8 @@
     "ecmaVersion": "latest"
   },
   "ignorePatterns": [
-    "**/node_modules/**"
+    "**/node_modules/**",
+    "**/dist"
   ],
   "rules": {
     "comma-dangle": "off",
@@ -22,6 +23,7 @@
     "no-cond-assign": "off",
     "no-console": "off",
     "no-multiple-empty-lines": "warn",
+    "no-param-reassign": "off",
     "no-plusplus": "off",
     "no-restricted-syntax": "off",
     "no-unused-vars": "warn",
