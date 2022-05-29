@@ -1,8 +1,16 @@
-# 4chan-Link-Updater
 
-[![npm](https://img.shields.io/npm/v/4chan-link-updater.svg)](https://www.npmjs.com/package/4chan-link-updater)
+<div align="center">
 
-This project contains functions to replace dead 4chan and 4chan archive links with live ones. It also contains regular expressions to match 4chan and 4chan archive sites with their respective boards.
+[![npm][npm]][npm-url]
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/bzvnr/4chan-Link-Updater/issues)
+
+  <a href="https://bzvnr.github.io/4chan-Link-Updater/">View in action with GitHub Pages</a>
+
+<h1>4chan-Link-Updater</h1>
+
+</div>
+
+This project contains functions to update dead 4chan and 4chan archive links with live ones. It also contains regular expressions to match 4chan and 4chan archive sites with their respective boards.
 
 If viewing this project on npmjs.com, the GitHub repository may have a more recent version.
 
@@ -49,3 +57,6 @@ There is no safety check for non-functional links. Use with caution.
 - [Live 4chan archives in a JSON file](https://github.com/4chenz/archives.json)
 - [4chan archive site information](https://wiki.archiveteam.org/index.php/4chan)
 - [General 4chan history](https://wiki.bibanon.org/4chan/History) (NSFW)
+
+[npm]: https://img.shields.io/npm/v/4chan-link-updater.svg
+[npm-url]: https://www.npmjs.com/package/4chan-link-updater
