@@ -33,8 +33,8 @@ If viewing this project on npmjs.com, the GitHub repository may have a more rece
 
 ## Features
 
-- functions to replace post and thread links for 4chan and dead 4chan archives with lives ones automatically
-- regular expressions for archive sites and their respective boards
+- Functions to replace post and thread links for 4chan and dead 4chan archives with lives ones automatically
+- Regular expressions for archive sites and their respective boards
 
 ## Rationale
 
@@ -48,7 +48,7 @@ This project contains function to replace those broken / dead links with live on
 
 ## Use Instructions
 
-A live version of project can be used with [GitHub Pages](https://bzvnr.github.io/4chan-Link-Updater/). The project can also be used offline by downloading or cloning it from GitHub.
+A live version of project can be used with [GitHub Pages](https://bzvnr.github.io/4chan-Link-Updater/). The project can also be used offline by [downloading](#installation) or cloning it from GitHub.
 
 ### Requirements
 
