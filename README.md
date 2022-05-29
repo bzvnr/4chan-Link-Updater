@@ -34,13 +34,13 @@ If viewing this project on npmjs.com, the GitHub repository may have a more rece
 ## Features
 
 - Functions to replace post and thread links for 4chan and dead 4chan archives with lives ones automatically
-- Regular expressions for archive sites and their respective boards
+- Regular expressions for 4chan archive sites and their respective boards
 
 ## Rationale
 
-Threads on the imageboard 4chan are ephemeral, meaning they become inaccessible after some time. Once a thread is deleted, links to it no longer work.
+Threads on the imageboard 4chan are ephemeral, meaning they become inaccessible after some time. Links to the thread no longer work once a thread becomes inaccessible.
 
-4chan archives that preserve threads past their deletion exist, but the links that redirect to 4chan are still invalid. Additionally, 4chan archives can go offline, rendering links to those archives broken.
+4chan archive sites that preserve threads past their deletion exist, but the 4chan links remain broken. Additionally, 4chan archives can go offline, rendering links to those archives broken.
 
 This project solves that problem by providing functions to replace those broken / dead links with live ones automatically.
 
@@ -68,11 +68,11 @@ The project's [HTML document](./index.html) opened in most browsers should work 
 
 Tests are used to verify this project's functionality (see [limitations](#limitations) for tests that don't pass).
 
-To run the tests, in a terminal navigated to the project's directory, run ```npm install``` if packages aren't installed, then ```npm test``` run the tests.
+To run the tests, in a terminal navigated to the project's directory, run ```npm install``` if packages aren't installed, then ```npm test``` to run the tests.
 
 ## Limitations
 
-Image links to images are currently not supported.To see the links that currently cannot be parsed, view [testCases.json](./lib/testCases.json) and search for "*nonfunctional*". Note that post and thread links ending in the format `/{threadNumber},{postNumber}` are not supported.
+Image links are currently not supported. To see the links that currently cannot be parsed, view [testCases.json](./lib/testCases.json) and search for "*nonFunctional*". Note that post and thread links in the format `/{threadNumber},{postNumber}` are not supported.
 
 There is no safety check for non-functional links. Use with caution.
 
