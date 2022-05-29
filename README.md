@@ -14,25 +14,37 @@ This project contains functions to update dead 4chan and 4chan archive links wit
 
 If viewing this project on npmjs.com, the GitHub repository may have a more recent version.
 
-## How To Use
+## Use Instructions
 
-To use this project, Node.js and npm must be installed. For installation instructions, [click here if using a Windows Operating System](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows) or [here for Mac/Linux](https://github.com/nvm-sh/nvm#install--update-script).
+A live version of project can be used with [GitHub Pages](https://bzvnr.github.io/4chan-Link-Updater/). The project can also be used offline by downloading or cloning it from GitHub.
 
-While more detailed instructions are being developed, it is assumed that the reader has some understanding of JavaScript and Node.js. Knowledge of [Jest](https://jestjs.io/) is optional.
+### Requirements
 
-### Use Instructions
+To use this project locally, Node.js and npm must be installed. See [installation instructions for Node.js for details](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm). A short video on how to install Node.js can also be viewed [here](https://youtu.be/OBhw2BOez0w?t=82).
 
-1. Download a ZIP file of the repository from GitHub.
-2. Unzip the downloaded file.
-3. In the project's `lib` folder, there is a file called `updateLinks.js`. Open the file and place the body of text containing links where specified.
-4. Open your operating system's terminal window and change the current directory to the project's `lib` folder.
-5. Type `node updateLinks.js` and press enter. The updated links will be displayed in the terminal window.
+## Use Instructions
 
-### Testing
+A live version of project can be used with [GitHub Pages](https://bzvnr.github.io/4chan-Link-Updater/). The project can also be used offline by downloading or cloning it from GitHub.
 
-Tests are used to verify this project's functionality. [Jest](https://jestjs.io/) is used as a testing framework.
+### Requirements
 
-#### Test Instructions
+To use this project locally, Node.js and npm must be installed. See [installation instructions for Node.js for details](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm). A short video on how to install Node.js can also be viewed [here](https://youtu.be/OBhw2BOez0w?t=82).
+
+## Installation
+
+This part assumes the [requirements](#requirements) have been fulfilled.
+
+1. Click the green `Code` button [on the project's GitHub repository page](https://github.com/bzvnr/4chan-Link-Updater) and download the project as a ZIP file
+2. Unzip the file
+3. [Open your system's terminal](https://web.archive.org/web/20220528160004/https://towardsdatascience.com/a-quick-guide-to-using-command-line-terminal-96815b97b955?gi=f465d80a5ddf)
+4. In the terminal, navigate to the project's directory (folder). If you are unfamiliar with terminal navigation, enter `cd [filePathToProjectDirectory]` without the brackets in the terminal (ex: `cd C:\Users\user\Downloads\4chan-Link-Updater-master\4chan-Link-Updater-master`). The directory navigated to should contain the project's `lib` folder
+5. In the terminal, enter `npm install` to download the npm packages required for the project
+
+The project's [HTML document](./index.html) opened in most browsers should work locally after these instructions.
+
+## Testing
+
+Tests are used to verify this project's functionality. As of 1.4.2, 80/81 tests pass. [Jest](https://jestjs.io/) is used as a testing framework.
 
 In the project's folder, run the command below in terminal. This will download packages necessary for testing.
 
