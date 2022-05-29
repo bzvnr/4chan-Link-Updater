@@ -22,7 +22,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "build": "webpack ./lib/replace4chanLinks.js --output-filename=bundle.js --mode=production"
+    "build": "webpack ./lib/textarea-controller.js --output-filename=bundle.js --mode=production"
   },
   "repository": {
     "type": "git",
