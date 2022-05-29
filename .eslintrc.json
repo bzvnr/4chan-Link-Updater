@@ -13,7 +13,8 @@
     "ecmaVersion": "latest"
   },
   "ignorePatterns": [
-    "**/node_modules/**"
+    "**/node_modules/**",
+    "**/dist"
   ],
   "rules": {
     "comma-dangle": "off",
