@@ -1,6 +1,6 @@
 {
   "name": "4chan-link-updater",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Update dead/broken 4chan and 4chan archive links with live ones. Contains regular expressions for 4chan archive sites and boards.",
   "keywords": [
     "4chan",
@@ -34,6 +34,8 @@
     "eslint": "^8.14.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0",
-    "jest": "^27.5.1"
+    "jest": "^27.5.1",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
   }
 }
