@@ -1,6 +1,6 @@
 {
   "name": "4chan-link-updater",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "Update dead/broken 4chan and 4chan archive links with live ones. Contains regular expressions for 4chan archive sites and boards.",
   "keywords": [
     "4chan",
@@ -17,7 +17,7 @@
   },
   "files": [
     "lib/replace4chanLinks.js",
-    "lib/sitesAndBoardRegexes.js"
+    "lib/siteAndBoardRegexes.js"
   ],
   "main": "index.js",
   "scripts": {
