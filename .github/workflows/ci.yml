@@ -1,0 +1,32 @@
+# setup and use a GitHub runner to run unit tests
+name: Jest Unit Tests
+
+on:
+  pull_request:
+    paths-ignore:
+      - 'dist/**'
+      - '.editorconfig'
+      - '.gitignore'
+      - 'index.html'
+      - 'LICENSE'
+      - 'README.md'
+
+jobs:
+  tests:
+    runs-on: windows-latest
+
+    strategy:
+      matrix:
+        node-version: [14.x]
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+      - name: 'Use Node.js ${{ matrix.node-version }}'
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: npm clean-install
+        run: npm ci
+      - name: tests
+        run: npm test
